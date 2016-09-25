@@ -8,6 +8,4 @@ Build it by changing to the directory where you have cloned this project and iss
 
 and run the created images using the docker command:
 
->docker run -d -p 80:80 \
->--name httpd \
->your_dockerhub_account/arm64-busybox-httpd
+>docker run -d -p 80:80 --name httpd your_dockerhub_account/arm64-busybox-httpd
